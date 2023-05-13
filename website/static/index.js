@@ -6,3 +6,4 @@ function deleteNote(noteId) {
         window.location.href = '/';
     });
 }
+exports.build = series(scssTask, jsTask);
